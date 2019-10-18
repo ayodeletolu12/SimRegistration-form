@@ -1,0 +1,85 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 0;
+}
+.main-container {
+    border: 5px solid orange;
+    margin: auto;
+}
+.main-regform {
+    margin: 10px;
+    border: 2px solid orange;
+    border-bottom-style: dashed;
+}
+.kyc-form h1 {
+    padding: 0;
+}
+.logo {
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.simreg-head {
+    display: flex;
+    justify-content: center;
+}
+.simRegForm {
+    margin: 0 50px 50px 50px;
+}
+label {
+    display: block;
+}
+.socialmedia {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+.optional {
+    text-align: center;
+}
+input[type="text"] {
+    width: 80%;
+    margin-bottom: 10px;
+}
+input, select {
+    
+    margin-bottom: 10px;
+}
+.button {
+    background-color: orange;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    background-color: orange;
+    color: #fff;
+    padding: 5px;
+}
+@media(max-width:600px){
+    .simreg-head {
+        display: block;
+        padding: 0;
+        margin: 10px;
+    }
+    .simRegForm {
+        margin: 0 10px;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+    .socialmedia {
+        display: block;
+    }
+    .kyc-form h1 {
+        color: blue;
+    }
+    footer {
+        padding: 0;
+    }
+}
